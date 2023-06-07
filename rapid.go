@@ -21,7 +21,7 @@ func main() {
 
     req, _ := http.NewRequest("GET", url, nil)
 
-    req.Header.Add("X-RapidAPI-Key", "1f4593a270msh9dd4b9a1cf4f88cp1113b3jsnad3709a3222f")
+    req.Header.Add("X-RapidAPI-Key", "Enter your api-key here")
     req.Header.Add("X-RapidAPI-Host", "domains-records.p.rapidapi.com")
 
     res, _ := http.DefaultClient.Do(req)
